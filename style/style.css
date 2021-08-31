@@ -1,5 +1,39 @@
+.horizontal-navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1em 1em;
+}
+
+.gmail-button {
+    margin-right: 1em;
+}
+
+.images-button {
+    margin-right: 1em;
+}
+
+.apps-button {
+    margin-right: 1em;
+}
+
 .main-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.input-form {
+    height: 4em;
+    min-width: 30vw;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.input-form:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    border: 0;
 }
