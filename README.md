@@ -1,7 +1,7 @@
 
 # Assignment from The Odin Project 
 ## Copy of Google Homepage
-
+### [demo link](https://n-pogorelskaia.github.io/google-homepage/)
 <br>For this small project I used:<br>
 * some terminal commands for Git
 * HTML
