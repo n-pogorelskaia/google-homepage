@@ -16,12 +16,19 @@
 }
 
 .apps-button {
-    margin-right: 1em;
+    margin-right: 1.5em;
+    margin-left: 1em;
+    opacity: 0.6;
 }
 
-.account-menu {
-    width: 100px;
-    height: 40px;
+.apps-icon{
+    height: 1.5em;
+    width: auto;
+}
+
+.account-menu  {
+    width: 7em;
+    height: 2.5em;
     color: rgb(255,255,255);
     background-color:rgb(43, 125, 233);
     border-radius: 5px;
@@ -51,8 +58,9 @@
 }
 
 .search-icon {
-    height: 60%;
+    height: 50%;
     width: auto;
+    opacity: 0.4;
 }
 
 .input-field {
@@ -62,4 +70,18 @@
 
 .input-field:focus {
     border: none;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.google-search-button, .feeling-lucky-button {
+    background-color: rgba(0, 0, 0, 0.02);
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 5px;
+    margin: 2em 0.5em;
+    padding: 0 1.5em;
 }
