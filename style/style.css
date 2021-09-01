@@ -1,28 +1,33 @@
-.horizontal-navbar {
+body {
+    margin: 0;
+}
+
+.top-navbar {
     font-family: Arial, sans-serif;
     color: rgba(0, 0, 0, 0.87);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0 1em;
+    margin: 0 15px;
+    padding: 10px;
 }
 
 .gmail-button {
-    margin-right: 1em;
+    margin-right: 15px;
 }
 
 .images-button {
-    margin-right: 1em;
+    margin-right: 15px;
 }
 
 .apps-button {
-    margin-right: 1.5em;
-    margin-left: 1em;
+    margin-right: 20px;
+    margin-left: 15px;
     opacity: 0.6;
 }
 
 .apps-icon{
-    height: 1.5em;
+    height: 25px;
     width: auto;
 }
 
@@ -38,15 +43,17 @@
 }
 
 .main-logo {
+    height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .input-form {
-    height: 3em;
+    height: 40px;
     min-width: 35vw;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     display: flex;
     justify-content: space-around;
@@ -78,10 +85,53 @@
     font-family: Arial, sans-serif;
 }
 
-.google-search-button, .feeling-lucky-button {
+.search-type-button {
     background-color: rgba(0, 0, 0, 0.02);
     color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
     border-radius: 5px;
-    margin: 2em 0.5em;
+    margin: 15px 5px;
     padding: 0 1.5em;
+}
+
+.language-settings {
+    font-family: Arial, sans-serif;
+     color: rgba(0, 0, 0, 0.87);
+     font-size: 15px;
+}
+
+.language-link {
+    color: rgba(43, 125, 233, 0.9);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.55);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.country{
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bottom-navbar {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu {
+    display: flex;
+}
+
+.right-menu {
+    display: flex;
+}
+
+.bottom-menu-button {
+    padding: 0 10px;
 }
